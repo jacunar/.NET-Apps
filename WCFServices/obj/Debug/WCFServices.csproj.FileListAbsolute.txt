@@ -1,0 +1,7 @@
+G:\DATOS\_ALLY\SearchWorker\WCFServices\bin\WCFServices.dll.config
+G:\DATOS\_ALLY\SearchWorker\WCFServices\bin\WCFServices.dll
+G:\DATOS\_ALLY\SearchWorker\WCFServices\bin\WCFServices.pdb
+G:\DATOS\_ALLY\SearchWorker\WCFServices\obj\Debug\WCFServices.csproj.AssemblyReference.cache
+G:\DATOS\_ALLY\SearchWorker\WCFServices\obj\Debug\WCFServices.csproj.CoreCompileInputs.cache
+G:\DATOS\_ALLY\SearchWorker\WCFServices\obj\Debug\WCFServices.dll
+G:\DATOS\_ALLY\SearchWorker\WCFServices\obj\Debug\WCFServices.pdb

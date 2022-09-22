@@ -1,0 +1,8 @@
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\bin\Debug\ServiceClient.exe.config
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\bin\Debug\ServiceClient.exe
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\bin\Debug\ServiceClient.pdb
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\obj\Debug\ServiceClient.csproj.AssemblyReference.cache
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\obj\Debug\ServiceClient.csproj.SuggestedBindingRedirects.cache
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\obj\Debug\ServiceClient.csproj.CoreCompileInputs.cache
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\obj\Debug\ServiceClient.exe
+G:\DATOS\_ALLY\SearchWorker\ServiceClient\obj\Debug\ServiceClient.pdb
