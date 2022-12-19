@@ -8,7 +8,6 @@
         <img src="img/logo.svg" />
     </a>
 
-<<<<<<< HEAD
     <NavLink href="" class="nav-tab" Match="NavLinkMatch.All">
         <img src="img/pizza-slice.svg" />
         <div>Get Pizza</div>
@@ -18,13 +17,6 @@
         <img src="img/bike.svg" />
         <div>My Orders</div>
     </NavLink>
-=======
-    <a href="" class="nav-tab">
-        <img src="img/pizza-slice.svg" />
-        <div>Get Pizza</div>
-    </a>
-
->>>>>>> c8ea36748f8cf79e41fa8f67dfcb4d926a962981
 </div>
 
 <div class="main">
@@ -58,7 +50,6 @@
 
 @code {
     Order Order => OrderState.Order;
-<<<<<<< HEAD
     bool isSubmitting;
 
     async Task PlaceOrder()
@@ -69,16 +60,4 @@
         OrderState.ResetOrder();
         NavigationManager.NavigateTo("/myorders");
     }    
-=======
-
-    bool isSubmitting;
-
-    async Task PlaceOrder() {
-        isSubmitting = true;
-        var response = await HttpClient.PostAsJsonAsync(NavigationManager.BaseUri + "orders", OrderState.Order);
-        var newOrderId= await response.Content.ReadFromJsonAsync<int>();
-        OrderState.ResetOrder();
-        NavigationManager.NavigateTo("/");
-    }
->>>>>>> c8ea36748f8cf79e41fa8f67dfcb4d926a962981
 }
