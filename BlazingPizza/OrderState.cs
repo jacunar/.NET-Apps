@@ -1,4 +1,4 @@
-namespace BlazingPizza.Services;
+namespace BlazingPizza;
 
 public class OrderState {
     public bool ShowingConfigureDialog { get; private set; }
@@ -31,5 +31,9 @@ public class OrderState {
 
     public void RemoveConfiguredPizza(Pizza pizza) {
         Order.Pizzas.Remove(pizza);
+    }
+    
+    public void ResetOrder()
+    {
     }
 }
