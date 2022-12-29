@@ -9,7 +9,7 @@ namespace SearchWorker {
 
         public Worker(ILogger<Worker> logger) {
             _logger = logger;
-            _unidad = @"Z:\2021\1 - PGR - 2021\ENTREGAS";
+            _unidad = @"Z:\2022\PGR\ENTREGAS";
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken) {
@@ -24,6 +24,7 @@ namespace SearchWorker {
                 //_logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 //await Task.Delay(1000, stoppingToken);
             }
+            _logger.LogInformation("Finalizado");
         }
 
         private void DirSearch(string directory) {
@@ -40,7 +41,7 @@ namespace SearchWorker {
 
         public void WriteFile(List<string> fileFounds) {
             string included = JsonConvert.SerializeObject(fileFounds, Formatting.Indented, new JsonSerializerSettings { });
-            File.WriteAllText("archivos.json", included);
+            File.WriteAllText("Z_2022_shp.json", included);
         }
     }
 }
