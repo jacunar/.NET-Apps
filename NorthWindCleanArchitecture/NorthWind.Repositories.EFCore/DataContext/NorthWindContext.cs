@@ -6,10 +6,10 @@ namespace NorthWind.Repositories.EFCore.DataContext {
         public NorthWindContext(DbContextOptions<NorthWindContext> options):
             base(options) { }
 
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Customer> Customers { get; set; } = null!;
+        public DbSet<Product> Products { get; set; } = null!;
+        public DbSet<Order> Orders { get; set; } = null!;
+        public DbSet<OrderDetail> OrderDetails { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             modelBuilder.Entity<Customer>().Property(c => c.Id)
